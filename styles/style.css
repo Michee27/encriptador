@@ -109,6 +109,10 @@ body {
     font-family: var(--font-segundaria);
 }
 
+.criptografar:hover {
+    background-color: var(--cor-hover)
+}
+
 .descriptografar {
     display: flex;
     justify-content: center;
@@ -121,6 +125,10 @@ body {
     background-color: #97a5b7;
     border: 0.5px solid var(--cor-terciaria);
     font-family: var(--font-segundaria);
+}
+
+.descriptografar:hover {
+    background-color: var(--cor-hover)
 }
 
 .conteudo-principal-box {
@@ -173,6 +181,11 @@ body {
     border: 0.5px solid #0A3871;
     background-color: white;
     font-family: var(--font-segundaria);
+}
+
+.copy-btn:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-segundaria);
 }
 
 .rodape {
